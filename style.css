@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.container{
+    background-image: url(./images/background1.png);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.container .content {
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+}
+
+.container .content .background-yellow{
+    position: relative;
+    background: url(./images/background.png);
+    background-repeat: no-repeat;
+    width: 100%; height: 80vh;
+}
+
+.container .content .background-yellow img{
+    width: 100%;
+    height: 100%;
+}
+
+.container .content .background-yellow .poster{
+    position: absolute;
+}
+
+.background-yellow .poster  .head{
+    align-items: center;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+    height: 15vh;
+}
+
+.background-yellow .poster .left {
+    margin-left: 20px;
+    width: 160px;
+    height: auto;
+}
+
+.background-yellow .poster .left img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.background-yellow .poster .right {
+    display: flex;
+    margin-right: 20px;
+    width: auto;
+    height: 30px;
+}
+
+.background-yellow .poster .right a {
+    margin-right: 8px;
+}
+
+.background-yellow .poster .right img{
+    width: 100%;
+    height: 100%;
+}
+
+.background-yellow .poster .product {
+    position: relative;
+    display: flex;
+}
+
+.background-yellow .poster .product .solid {
+    width: 109px;
+    height: 109px;
+    border: dotted 1px white;
+    border-radius: 50%;
+    position: absolute;
+    right: 313px;
+    top: 179px;
+}
+
+
+.background-yellow .poster .product .left__info {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+
+
+
+/*************         ***IT IS A GOOD ***       ***********/
+
+.background-yellow .poster .product .left__info .little__text {
+    border: dotted 2px;
+    width: 65%;
+    margin-left: 20px;
+}
+
+.background-yellow .poster .product .left__info .little__text img {
+    width: 300px;
+    height: auto;
+}
+
+/****** END *******         ***IT IS A GOOD ***       **** END *******/
+
+
+
+/*************         ***BUrGER  ***       ***********/
+
+.background-yellow .poster .product .left__info .burger__text {
+    width: 430px;
+    height: auto;
+}
+
+.background-yellow .poster .product .left__info .burger__text img {
+    width: 100%;
+    height: 100%;
+}
+
+/****** END *******         ***BUrGER  ***       **** END *******/
+
+
+
+/*************         *** WEEK  ***       ***********/
+
+.background-yellow .poster .product .left__info .week__text {
+    width: 250px;
+}
+
+.background-yellow .poster .product .left__info .week__text img {
+    width: 90%;
+    height: 100%;
+}
+
+/****** END *******         *** WEEK  ***       **** END *******/
+
+
+
+/*************         *** PRODUCT  ***       ***********/
+
+.background-yellow .poster .product .left__info {
+    width: 470px;
+    margin-top: 15px;
+}
+
+.background-yellow .poster .product .right__burgur {
+    width: 400px;
+    margin-top: -75px;
+}
+
+.background-yellow .poster .product .right__burgur img {
+    width: 100%;
+}
+
+
+
+.background-yellow .poster .product .right__burgur p {
+    text-align: right;
+    font-weight: 600;
+    color: #42200b;
+    margin-top: -5px;
+    width: 90%;
+}
+
+/****** END *******         *** PRODUCT ***       **** END *******/
+
+
+
+/*************         *** INFO  ***       ***********/
+
+.poster .contact__info .piment {
+    width: 90px;
+    margin-top: -70px;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    color: wheat;
+}
+
+.poster .contact__info .piment img {
+    width: 100%;
+    z-index: 1;
+}
+
+.poster .contact__info .piment span {
+    width: 80px;
+    margin-left: -40px;
+}
+
+.poster .contact__info .piment span p {
+    background-color: #42200b;
+    padding: 7%;
+    padding-left: 20px;
+    width: 190%;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+
+
+.poster .contact__info .express {
+    width: 25%;
+    position: relative;
+}
+.poster .contact__info .express span {
+    position: absolute;
+    left: 0;
+    color: white;
+    font-weight: bold;
+    margin-top: 09px;
+    margin-left: 54px;
+}
+.car{
+    position: absolute;
+    width: 42px;
+    height: 36px;
+    top: 439px;
+    left: 11px;
+}
+/****** END *******         *** INFO ***       **** END *******/
+
